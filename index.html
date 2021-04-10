@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bao">
+      <div class="form">
+        <h2 class="heading">Sign In With</h2>
+        <div class="btn_link_group">
+          <button class="btn_link">
+            <i class="fab fa-facebook-square btn_icon"></i>
+            <span class="btn_label">Facebook</span>
+          </button>
+          <button class="btn_link" id="btn_google">
+            <i class="fab fa-google btn_icon"></i>
+            <span class="btn_label">Google</span>
+          </button>
+        </div>
+        <div class="input_form_group">
+          <label class="input_label">Username</label>
+          <input type="text" id="username" class="form_control" />
+        </div>
+        <div class="input_form_group">
+          <label class="input_label">Password</label>
+          <input type="text" id="password" class="form_control" />
+        </div>
+        <button class="btn_sign_in" id="button">Sign in</button>
+        <span class="mess_sign_up"
+          >Not a member?
+          <a href="" class="mess_link">Sign up now</a>
+        </span>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
